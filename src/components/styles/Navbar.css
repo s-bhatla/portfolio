@@ -1,0 +1,7 @@
+.navbar{
+    padding-bottom:0;
+    position: sticky;
+    top:0;
+    background-color: var(--darkblue);
+    z-index: 1;
+  }
