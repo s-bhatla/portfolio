@@ -16,8 +16,8 @@ function App() {
       <Landing />
       <main>
         <About />
-        <Counter />
         <Skills />
+        <Counter />
         <Experience />
         <Projects />
         <Contact />

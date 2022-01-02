@@ -1,7 +1,7 @@
 .videoclass{
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    object-fit:fill;
     position: fixed;
     left: 0;
     right: 0;
@@ -14,9 +14,9 @@
 .mycontent{
   position: relative;
   top: 25vh;
-  left:35vw;
+  margin: 0 auto;
   color: rgb(255, 246, 232);
-  background-color: #9b7f349c;
+  background-color: #cfa9409c;
   box-shadow: 0px 0px 20px 5px var(--yellow1);
 
   width: fit-content;
@@ -26,12 +26,12 @@
   flex-direction: column;
   border-radius: 5% 5% 5% 5%;
   transition: box-shadow 0.2s ease-in-out;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(4px);
 
 }
 
 .mycontent:hover{
-  box-shadow: 0px 0px 70px 15px var(--yellow1),
-  0px 0px 30px 5px rgb(255, 245, 158);
+  box-shadow: 0px 0px 40px 15px var(--yellow1),
+  0px 0px 20px 5px rgb(255, 245, 158);
 }
 

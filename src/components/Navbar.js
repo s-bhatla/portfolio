@@ -1,8 +1,29 @@
 import "./styles/Navbar.css"
+import { useState, useEffect } from "react";
 
 function Navbar() {
+  const [show, setShow] = useState("transy")
+  const controlNavbar = () =>{
+    if(window.scrollY<60){
+      setShow("transy")
+    }
+    else if(window.scrollY>600){
+      setShow(" ")
+    }else{
+      setShow("navinvis")
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll',controlNavbar)
+    return () => {
+      window.removeEventListener('scroll', controlNavbar)
+    }
+  }, [])
+
+
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav className={`navbar navbar-expand-lg navbar-dark ${show}`}>
       <div class="container-fluid d-flex">
       <a class="navbar-brand ps-2 me-auto" href="/">Sidharth Bhatla</a>
         

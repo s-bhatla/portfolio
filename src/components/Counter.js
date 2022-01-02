@@ -1,26 +1,28 @@
+import "./styles/Counter.css"
+
 function Counter(){
     return (
-        <div id="counter">
-            {/* Add icons and counting effect and paralax */}
-            <div>
+        <div id="counter" className="d-flex justify-content-around">
+            {/* Add counting effect and paralax */}
+            <div className="d-flex flex-column justify-content-center counter-ele">
                 <i class="far fa-lightbulb"></i>
-                69
-                Completed Projects
+                <div>69</div>
+                <div className="d-flex justify-content-center">Completed Projects</div>
             </div>
-            <div>
+            <div className="d-flex flex-column justify-content-center counter-ele">
                 <i class="fas fa-laptop-code"></i>
-                69
-                Hackathons Participated
+                <div>69</div>
+                <div>Hackathons Participated</div>
             </div>
-            <div>
+            <div className="d-flex flex-column justify-content-center counter-ele">
                 <i class="fas fa-award"></i>
-                69
-                Awards
+                <div>69</div>
+                <div>Awards</div>
             </div>
-            <div>
+            <div className="d-flex flex-column justify-content-center counter-ele">
                 <i class="fas fa-user-plus"></i>
-                69
-                LinkedIn Connections
+                <div>69</div>
+                <div>LinkedIn Connections</div>
             </div>
         </div>
     )

@@ -1,7 +1,21 @@
 .navbar{
     padding-bottom:0;
     position: sticky;
-    top:0;
+    top:0px;
     background-color: var(--darkblue);
     z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition: 0.7s;
   }
+
+.navinvis{
+  top: -50px;
+}
+
+.dis-none{
+  display: none;
+}
+
+.transy{
+  background-color: #18162ea9;
+}
