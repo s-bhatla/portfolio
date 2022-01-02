@@ -1,0 +1,37 @@
+.skillcard *{
+    text-align: center;
+}
+
+.skillcard i {
+    font-size: 3rem;
+    color: rgb(198, 137, 223);
+}
+
+.skill-title{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.skillcard{
+    padding: 4rem;
+    border: 2px solid var(--lightblue);
+    border-radius: 10%;
+    margin: 1rem;
+    height: 50vh;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.skillcard:hover{
+    box-shadow: 0px 0px 7px 7px var(--lightblue),
+    0px 0px 10px 10px rgb(198, 137, 223);
+}
+
+#skills{
+    margin-bottom: 3rem;
+    margin-top:1rem;
+}
+
+.skillka-title{
+    margin-bottom:2rem;
+}
