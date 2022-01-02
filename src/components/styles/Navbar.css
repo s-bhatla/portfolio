@@ -5,7 +5,7 @@
     background-color: var(--darkblue);
     z-index: 1;
     transition-timing-function: ease-in-out;
-    transition: 0.7s;
+    transition: 0.5s;
   }
 
 .navinvis{

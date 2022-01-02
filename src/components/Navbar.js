@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 function Navbar() {
   const [show, setShow] = useState("transy")
   const controlNavbar = () =>{
-    if(window.scrollY<60){
+    if(window.scrollY<10){
       setShow("transy")
     }
     else if(window.scrollY>600){
