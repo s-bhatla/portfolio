@@ -6,3 +6,26 @@
 #projects .cards-list img{
     width: 27vw;
 }
+
+#projects .display-web.android{
+    display: none;
+}
+#projects .display-web.others{
+    display: none;
+}
+#projects .display-android.web{
+    display: none;
+}
+#projects .display-android.others{
+    display: none;
+}
+#projects .display-others.web{
+    display: none;
+}
+#projects .display-others.android{
+    display: none;
+}
+
+#projects .sorters:hover{
+    cursor: pointer;
+}

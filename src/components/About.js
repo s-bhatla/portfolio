@@ -17,7 +17,7 @@ function About() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
-          <a className="button-link" target="_blank" href="https://www.linkedin.com/in/sidharth-bhatla-811154202/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAADOioI0BLGywzoi8EC7kfCVaFeZqayp6Tp4,1635478037593)/">
+          <a className="button-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sidharth-bhatla-811154202/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAADOioI0BLGywzoi8EC7kfCVaFeZqayp6Tp4,1635478037593)/">
             <button className="mybtn">Download Resume</button>
           </a>
         </div>
