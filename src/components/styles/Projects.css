@@ -1,0 +1,12 @@
+#projects{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#projects .cards-list img{
+    width: 27vw;
+}
+
+#projects .web{
+    display: none;
+}

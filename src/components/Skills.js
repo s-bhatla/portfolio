@@ -16,7 +16,7 @@ function Skills() {
           <div className="skillcard">
             <div><i class="fab fa-android"></i></div>
             <div className="skill-title">App Development</div>
-            <div>Native Android Development (Java) | Flutter | Dart </div>
+            <div>Native Android Development (Java) | Flutter | Dart | XML </div>
           </div>
         </div>
         <div className="col-md-4">
