@@ -4,11 +4,13 @@
 
 #counter{
     font-size: 1.5rem;
+    color: #fff;
     background-image: url('counterimage.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    background-color: rgba(9, 40, 61, 0.932);
     padding-top: 3em;
     padding-bottom: 3em;
     z-index:-1;
@@ -19,4 +21,8 @@
     padding: 1rem;
     box-shadow:0px 0px 30px 15px rgba(22, 61, 87, 0.815);
     border-radius: 10%;
+}
+
+.counter-ele .my-icon{
+    font-size: 3rem;
 }

@@ -7,6 +7,15 @@
     --orange1: #f27e63;
   }
 
+*{
+  font-family: 'Major Mono Display', monospace;
+  
+  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-weight: 300;
+}
+
 .main-content{
   position:absolute;
 }

@@ -1,5 +1,6 @@
 .navbar{
     padding-bottom:0;
+    padding-top: 0;
     position: sticky;
     top:0px;
     background-color: var(--darkblue);
@@ -7,6 +8,35 @@
     transition-timing-function: ease-in-out;
     transition: 0.5s;
   }
+
+.my-name{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.45rem;
+  color: rgb(204, 245, 255);
+  animation: flicker 1.5s infinite alternate;
+  
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+    0 0 7px rgb(210, 242, 255),
+    0 0 10px rgb(186, 236, 255),
+    0 0 21px rgb(147, 251, 255),
+    0 0 42px rgb(0, 183, 255),
+    0 0 82px rgb(0, 195, 255),
+    0 0 92px rgb(0, 110, 255),
+    0 0 102px rgb(0, 195, 255),
+    0 0 151px rgb(0, 153, 255);
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
 
 .navinvis{
   top: -50px;
@@ -17,5 +47,5 @@
 }
 
 .transy{
-  background-color: #18162ea9;
+  background-color: #1d152cbb;
 }

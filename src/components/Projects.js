@@ -62,12 +62,11 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>Vaxiqueue</h3>
+              <h3>Chess Mini Game</h3>
               <p>
-                An android app to predict the waiting time for people waiting to
-                get a vaccine.
+                A Chess Mini Game entirely created in the C language.
               </p>
-              <a href="https://github.com/s-bhatla/VaxiQueue" class="btn">
+              <a href="https://github.com/s-bhatla/Chess-Mini-Game" class="btn">
                 Go to Project
               </a>
             </div>
@@ -81,12 +80,11 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>Vaxiqueue</h3>
+              <h3>Chromavision</h3>
               <p>
-                An android app to predict the waiting time for people waiting to
-                get a vaccine.
+                A cross platform application created to test for color-blindness
               </p>
-              <a href="https://github.com/s-bhatla/VaxiQueue" class="btn">
+              <a href="https://github.com/s-bhatla/ChromaVision" class="btn">
                 Go to Project
               </a>
             </div>
@@ -100,12 +98,11 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>Vaxiqueue</h3>
+              <h3>SwiftPharma</h3>
               <p>
-                An android app to predict the waiting time for people waiting to
-                get a vaccine.
+                A functioning full-stack e-commerce website created using ExpressJS framework as the backend.
               </p>
-              <a href="https://github.com/s-bhatla/VaxiQueue" class="btn">
+              <a href="https://github.com/s-bhatla/swiftPharma/tree/master" class="btn">
                 Go to Project
               </a>
             </div>
@@ -119,12 +116,11 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>Vaxiqueue</h3>
+              <h3>Potrflio Website</h3>
               <p>
-                An android app to predict the waiting time for people waiting to
-                get a vaccine.
+                The portfolio website you are looking at right now!
               </p>
-              <a href="https://github.com/s-bhatla/VaxiQueue" class="btn">
+              <a href="/" class="btn">
                 Go to Project
               </a>
             </div>

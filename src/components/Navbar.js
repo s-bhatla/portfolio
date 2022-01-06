@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark ${show}`}>
       <div class="container-fluid d-flex">
-      <a class="navbar-brand ps-2 me-auto" href="/">Sidharth Bhatla</a>
+      <a class="navbar-brand ps-2 me-auto my-name" href="/">sidhArth bhAtlA</a>
         
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">

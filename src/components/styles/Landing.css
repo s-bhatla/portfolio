@@ -12,11 +12,12 @@
 
 
 .mycontent{
+  font-weight: 800;
   position: relative;
   top: 25vh;
   margin: 0 auto;
-  color: rgb(255, 246, 232);
-  background-color: #cfa9409c;
+  color: #fff;
+  background-color: #997d309c;
   box-shadow: 0px 0px 20px 5px var(--yellow1);
   width: fit-content;
   display: flex;
@@ -24,17 +25,34 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 5% 5% 5% 5%;
-  transition: box-shadow 0.2s ease-in-out;
   backdrop-filter: blur(4px);
-
+  transition: 0.5s ease-in-out;
 }
 
 .mycontent i {
-  color: rgb(255, 246, 232);
+  color: rgb(255, 255, 255);
 }
 
 .mycontent:hover{
+  text-shadow:
+      0 0 1px #fff,
+      0 0 8px rgb(255, 251, 0);
+  animation: flicker2 1.5s infinite alternate;
   box-shadow:0px 0px 20px 5px rgb(255, 245, 158),
   0px 0px 40px 15px var(--yellow1);
 }
 
+@keyframes flicker2 {
+    
+  100%{
+    text-shadow:
+      0 0 2px #fff,
+      0 0 14px rgb(255, 251, 0);
+  }
+  
+  0% {        
+      text-shadow:
+      0 0 1px #fff,
+      0 0 8px rgb(255, 251, 0);
+  }    
+}
