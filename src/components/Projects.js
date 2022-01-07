@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <div id="projects" className="container-fluid">
-      <h2>Projects</h2>
+      <h2 className="topic-head">Projects</h2>
       <div className="d-flex mb-3">
         <div className="p-2 sorters" onClick={display_all}>
           All
@@ -116,7 +116,7 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>Potrflio Website</h3>
+              <h3>Portfolio Website</h3>
               <p>
                 The portfolio website you are looking at right now!
               </p>

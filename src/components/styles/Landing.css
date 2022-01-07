@@ -10,14 +10,16 @@
     z-index: -1;
 }
 
+.mycontent h2{
+  font-weight: 500;
+}
 
 .mycontent{
-  font-weight: 800;
   position: relative;
   top: 25vh;
   margin: 0 auto;
   color: #fff;
-  background-color: #997d309c;
+  background-color: #8a72309c;
   box-shadow: 0px 0px 20px 5px var(--yellow1);
   width: fit-content;
   display: flex;
@@ -26,7 +28,9 @@
   flex-direction: column;
   border-radius: 5% 5% 5% 5%;
   backdrop-filter: blur(4px);
-  transition: 0.5s ease-in-out;
+  transition: all 4s ease-in-out 4s;
+  box-shadow:0px 0px 20px 5px rgb(255, 245, 158),
+  0px 0px 40px 15px var(--yellow1);
 }
 
 .mycontent i {
@@ -34,25 +38,46 @@
 }
 
 .mycontent:hover{
+  transition: all 4s ease-in-out 4s;
   text-shadow:
       0 0 1px #fff,
       0 0 8px rgb(255, 251, 0);
   animation: flicker2 1.5s infinite alternate;
-  box-shadow:0px 0px 20px 5px rgb(255, 245, 158),
-  0px 0px 40px 15px var(--yellow1);
+  
 }
 
 @keyframes flicker2 {
     
   100%{
     text-shadow:
-      0 0 2px #fff,
-      0 0 14px rgb(255, 251, 0);
+      0 0 3px #fff,
+      0 0 6px rgb(255, 251, 0);
   }
   
   0% {        
       text-shadow:
       0 0 1px #fff,
-      0 0 8px rgb(255, 251, 0);
+      0 0 4px rgb(255, 251, 0);
   }    
+}
+
+.landing-icons{
+  padding-top: 0.3rem;
+}
+
+.landing-icons i{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-shadow: none;
+  transition: 0.2s ease-in-out;
+}
+
+.landing-icons i:hover{
+  color: var(--yellow1);
+}
+
+.my-roles{
+  font-weight: 700;
 }

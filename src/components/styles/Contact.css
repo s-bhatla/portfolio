@@ -1,9 +1,30 @@
 #contact a {
-    width: fit-content;
-    padding: 1rem 0 2rem 0;
+  width: fit-content;
+  padding: 1rem 0 2rem 0;
 }
 
-.contact-text{
-    margin: 1rem 5rem 1rem 5rem;
-    font-size: 1.35rem;
+#contact {
+  padding-top: 3rem;
+}
+
+.contact-text {
+  margin: auto 5rem auto 5rem;
+  font-size: 1.35rem;
+}
+
+.mail-img {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 25vw;
+  height: fit-content;
+  margin-left: 2rem;
+  border-radius: 5%;
+  border: 1px solid #ff6976;
+  padding: 1.5rem 0 1.5rem 0;
+  box-shadow: 0 0 10px 5px #ff6976, inset 0 0 4px 2px #ff6976;
+}
+
+.contact-button {
+  text-align: center;
+  width: fit-content;
 }

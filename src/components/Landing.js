@@ -22,10 +22,10 @@ function Landing() {
           <h2>Hi, I am Sidharth Bhatla</h2>
         </div>
         <div class="d-flex justify-content-center">
-          <h3>
+          <h2>
             <div className="d-flex">
               <div className="pe-2">I am a</div>
-              <div>
+              <div className="my-roles">
                 {count ? (
                   <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
                     <span>Programmer</span>
@@ -38,9 +38,9 @@ function Landing() {
                 )}
               </div>
             </div>
-          </h3>
+          </h2>
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center landing-icons">
           <a href="https://www.linkedin.com/in/sidharth-bhatla-811154202/">
             <i class="fab fa-linkedin p-3"></i>
           </a>

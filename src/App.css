@@ -8,12 +8,13 @@
   }
 
 *{
-  font-family: 'Major Mono Display', monospace;
+  /* font-family: 'Major Mono Display', monospace;
   
   font-family: 'Ubuntu Mono', monospace;
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Ubuntu', sans-serif; */
-  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif; */
+  /* font-weight: 300; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-content{
@@ -25,4 +26,9 @@ main{
     color: rgb(189, 189, 189);
     margin-top: 75vh;
     position: relative;
+}
+
+.topic-head{
+  font-weight: 600;
+  color: #fcebff;
 }
