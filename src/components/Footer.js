@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="d-flex flex-column justify-content-center footer">
         <div>
-          <h3>Sidharth Bhatla</h3>
+          <h3>sidhArth bhAtlA</h3>
         </div>
         <div>
           <a href="https://www.linkedin.com/in/sidharth-bhatla-811154202/">

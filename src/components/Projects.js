@@ -1,5 +1,8 @@
 import "./styles/Projects.css";
 import { useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 function Projects() {
   const [showproj, setShowproj] = useState("nothing");
@@ -16,6 +19,10 @@ function Projects() {
   const display_all = () => {
     setShowproj("");
   };
+
+  useEffect(() => {
+    Aos.init({duration:500})
+  }, [])
 
   return (
     <div id="projects" className="container-fluid">

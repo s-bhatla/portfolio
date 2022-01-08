@@ -32,6 +32,12 @@ function Landing() {
                     <Typist.Backspace count={20} delay={800} />
                     <span>Web Developer</span>
                     <Typist.Backspace count={13} delay={800} />
+                    <span>ML Enthusiast</span>
+                    <Typist.Backspace count={13} delay={800} />
+                    <span>App Developer</span>
+                    <Typist.Backspace count={13} delay={800} />
+                    <span>Blockchain Bug</span>
+                    <Typist.Backspace count={14} delay={800} />
                   </Typist>
                 ) : (
                   ""
