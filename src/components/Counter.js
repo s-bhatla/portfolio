@@ -11,8 +11,8 @@ function Counter() {
         <div>
           <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
-              <div>
-                {isVisible ? <CountUp end={5} duration={1} /> : 0}
+              <div className="number-counter">
+                {isVisible ? <CountUp end={5} duration={1} /> : 5}
               </div>
             )}
           </VisibilitySensor>
@@ -23,8 +23,8 @@ function Counter() {
         <i class="fas fa-laptop-code my-icon"></i>
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
-              <div>
-                {isVisible ? <CountUp end={8} duration={1} /> : 0}
+              <div className="number-counter">
+                {isVisible ? <CountUp end={8} duration={1} /> : 8}
               </div>
             )}
           </VisibilitySensor></div>
@@ -34,19 +34,19 @@ function Counter() {
         <i class="fas fa-award my-icon"></i>
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
-              <div>
-                {isVisible ? <CountUp end={1} duration={1} /> : 0}
+              <div className="number-counter">
+                {isVisible ? <CountUp end={1} duration={1} /> : 1}
               </div>
             )}
           </VisibilitySensor></div>
         <div>Awards</div>
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
-        <i class="fas fa-user-plus my-icon"></i>
+      <i class="fas fa-users my-icon"></i>
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
               <div>
-                {isVisible ? <CountUp end={166} duration={1} /> : 169}
+                {isVisible ? <CountUp end={166} duration={1} /> : 166}
               </div>
             )}
           </VisibilitySensor></div>

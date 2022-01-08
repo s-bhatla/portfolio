@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div id="contact" class="container-fluid">
       <h2 className="topic-head">Get in Touch</h2>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-3">
         <img src={mailbox} alt="mailbox." className=" mail-img" />
         <div className="contact-text">
           Feel free to drop an email, or contact me on any of the social

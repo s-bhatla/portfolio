@@ -12,14 +12,13 @@ function Experience() {
     <div id="experience" className="container-fluid">
       <h2  className="topic-head">Experience</h2>
       {/* Create a timeline here */}
-      {/* #b46fd9 */}
       <VerticalTimeline lineColor="#b46fd9">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2002-2018"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentStyle={{ background: "rgb(40, 62, 128)", color: "#fff" }}
+          iconStyle={{ background: "rgb(140, 190, 255)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(40, 62, 128)" }}
           icon={<SchoolIcon />}
           position={"left"}
         >
@@ -34,9 +33,9 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2020-present"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentStyle={{ background: "rgb(40, 62, 128)", color: "#fff" }}
+          iconStyle={{ background: "rgb(140, 190, 255)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(40, 62, 128)" }}
           icon={<SchoolIcon />}
           position={"left"}
         >
@@ -50,10 +49,10 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
           date="2020 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"right"}
         >
@@ -65,10 +64,10 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
           date="2020 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"right"}
         >

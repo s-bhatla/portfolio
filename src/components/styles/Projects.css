@@ -95,7 +95,7 @@
     text-decoration: none;
     padding: none;
     background: #fff;
-    color: rgb(28, 17, 48);
+    color: rgb(52, 24, 105);
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -105,5 +105,5 @@
 .mycard .card-info .btn:hover{
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
     color: #fff;
-    background: rgb(28, 17, 48);
+    background: rgb(52, 24, 105);
 }

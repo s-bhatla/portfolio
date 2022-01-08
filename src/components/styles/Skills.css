@@ -8,14 +8,19 @@
 }
 
 .skill-title{
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    margin-top: 2rem;
     font-size: 1.75rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.skill-content{
     font-family: 'Ubuntu Mono', monospace;
+    padding-top: 0.65rem;
 }
 
 .skillcard{
-    padding: 4rem;
+    padding: 3rem;
     border: 2px solid var(--lightblue);
     border-radius: 10%;
     margin: 1rem;

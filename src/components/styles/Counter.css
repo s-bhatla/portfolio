@@ -3,7 +3,8 @@
 }
 
 #counter{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
     color: #fff;
     background-image: url('counterimage.jpg');
     background-repeat: no-repeat;
@@ -11,19 +12,23 @@
     background-position: center;
     background-size: cover;
     background-color: rgba(9, 40, 61, 0.932);
-    padding-top: 3em;
-    padding-bottom: 3em;
+    box-shadow: inset 0 0 0 30rem rgba(8, 55, 87, 0.678);
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
     z-index:-1;
     margin-top: 3rem;
 }
 
 .counter-ele{
-    background-color: rgba(19, 57, 82, 0.829);
     padding: 1rem;
-    box-shadow:0px 0px 30px 15px rgba(22, 61, 87, 0.815);
     border-radius: 10%;
 }
 
 .counter-ele .my-icon{
     font-size: 3rem;
+    margin-bottom: 1.1rem;
+}
+
+.number-counter{
+    font-size: 1.75rem;
 }

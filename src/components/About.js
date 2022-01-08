@@ -13,8 +13,8 @@ function About() {
     <div id="about" className="container-fluid">
       <h2 className="topic-head">About Me</h2>
       <div className="row">
-        <img data-aos="fade-right" src={myImg} alt="I, in the flesh." className="col-lg-4 image" />
-        <div className="col-lg-8 d-flex justify-content-center flex-column summary" data-aos="fade-up">
+        <img data-aos="fade-right" data-aos-once="true" src={myImg} alt="I, in the flesh." className="col-lg-4 image" />
+        <div className="col-lg-8 d-flex justify-content-center flex-column summary" data-aos-once="true" data-aos="fade-up">
           <div className="d-flex justify-content-center flex-column">
             <div className="mb-2">
               Hey there, I'm Sidharth. I’ve always had a natural curiosity for

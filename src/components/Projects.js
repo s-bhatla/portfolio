@@ -21,16 +21,16 @@ function Projects() {
     <div id="projects" className="container-fluid">
       <h2 className="topic-head">Projects</h2>
       <div className="d-flex mb-3">
-        <div className="p-2 sorters" onClick={display_all}>
+        <div className="p-1 sorters  nav-effect" onClick={display_all}>
           All
         </div>
-        <div className="p-2 sorters" onClick={display_web}>
+        <div className="p-1 sorters  nav-effect" onClick={display_web}>
           Web
         </div>
-        <div className="p-2 sorters" onClick={display_android}>
+        <div className="p-1 sorters  nav-effect" onClick={display_android}>
           Android
         </div>
-        <div className="p-2 sorters" onClick={display_others}>
+        <div className="p-1 sorters  nav-effect" onClick={display_others}>
           Others
         </div>
       </div>
@@ -100,7 +100,7 @@ function Projects() {
             <div className="card-info">
               <h3>SwiftPharma</h3>
               <p>
-                A functioning full-stack e-commerce website created using ExpressJS framework as the backend.
+                A functioning full-stack e-commerce website created using ExpressJS.
               </p>
               <a href="https://github.com/s-bhatla/swiftPharma/tree/master" class="btn">
                 Go to Project

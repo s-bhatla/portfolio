@@ -4,9 +4,16 @@
     background-color: #1a162e;
     padding-top: 1rem;
     border-top: 1px solid #31217c;
+    margin-top: 1rem;
+    font-weight: 700;
 }
 
 .footer i{
     margin: 1rem 1rem 2rem 1rem;
     color: rgb(189, 189, 189);
+    transition: ease-in-out 0.5s;
+}
+
+.footer i:hover{
+    color: var(--lightblue)
 }
