@@ -1,7 +1,7 @@
 import "./styles/Projects.css";
 import { useState } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Projects() {
@@ -21,8 +21,8 @@ function Projects() {
   };
 
   useEffect(() => {
-    Aos.init({duration:500})
-  }, [])
+    Aos.init({ duration: 500 });
+  }, []);
 
   return (
     <div id="projects" className="container-fluid">
@@ -55,7 +55,7 @@ function Projects() {
                 An android app to predict the waiting time for people waiting to
                 get a vaccine.
               </p>
-              <a href="https://github.com/s-bhatla/VaxiQueue" class="btn">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/VaxiQueue" class="btn">
                 Go to Project
               </a>
             </div>
@@ -70,10 +70,8 @@ function Projects() {
             />
             <div className="card-info">
               <h3>Chess Mini Game</h3>
-              <p>
-                A Chess Mini Game created using only the C language.
-              </p>
-              <a href="https://github.com/s-bhatla/Chess-Mini-Game" class="btn">
+              <p>A Chess Mini Game created using only the C language.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/Chess-Mini-Game" class="btn">
                 Go to Project
               </a>
             </div>
@@ -89,9 +87,10 @@ function Projects() {
             <div className="card-info">
               <h3>Chromavision</h3>
               <p>
-                A cross platform application created to test for color-blindness.
+                A cross platform application created to test for
+                color-blindness.
               </p>
-              <a href="https://github.com/s-bhatla/ChromaVision" class="btn">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/ChromaVision" class="btn">
                 Go to Project
               </a>
             </div>
@@ -107,9 +106,13 @@ function Projects() {
             <div className="card-info">
               <h3>Swift Pharma</h3>
               <p>
-                A functioning full-stack e-commerce website created using ExpressJS.
+                A functioning full-stack e-commerce website created using
+                ExpressJS.
               </p>
-              <a href="https://github.com/s-bhatla/swiftPharma/tree/master" class="btn">
+              <a target="_blank" rel="noopener noreferrer" 
+                href="https://github.com/s-bhatla/swiftPharma/tree/master"
+                class="btn"
+              >
                 Go to Project
               </a>
             </div>
@@ -124,10 +127,8 @@ function Projects() {
             />
             <div className="card-info">
               <h3>Portfolio Website</h3>
-              <p>
-                The portfolio website you are staring at right now!
-              </p>
-              <a href="/" class="btn">
+              <p>The portfolio website you are staring at right now!</p>
+              <a target="_blank" rel="noopener noreferrer" href="/" class="btn">
                 Go to Project
               </a>
             </div>
