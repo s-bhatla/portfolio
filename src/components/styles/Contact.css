@@ -15,13 +15,13 @@
 .mail-img {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  width: 25vw;
+  width: 20vw;
   height: fit-content;
   margin-left: 2rem;
-  border-radius: 5%;
-  border: 1px solid #ff6976;
-  padding: 1.5rem 0 1.5rem 0;
-  box-shadow: 0 0 10px 5px #ff6976, inset 0 0 4px 2px #ff6976;
+  border-radius: 16px;
+  border: 1px solid #55B8E1;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: 0 0 20px 0px #55B8E1, inset 0 0 20px 0px #55B8E1;
 }
 
 .contact-button {

@@ -1,7 +1,7 @@
 .footer{
     text-align: center;
     padding-bottom: 1rem;
-    background-color: #1a162e;
+    background-color: #000000;
     padding-top: 1rem;
     border-top: 1px solid #31217c;
     margin-top: 1rem;
@@ -11,10 +11,11 @@
     margin: 1rem 1rem 2rem 1rem;
     color: rgb(189, 189, 189);
     transition: ease-in-out 0.5s;
+    font-size: 1.25rem;
 }
 
 .footer i:hover{
-    color: var(--lightblue)
+    color: var(--lightblue);
 }
 
 .footer h3{

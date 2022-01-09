@@ -48,11 +48,11 @@
     left: 0;
     width: 100%;
     height:110%;
-    background: linear-gradient(to bottom,rgba(123, 96, 219, 0.432), rgba(28, 12, 53, 0.897));
+    background: linear-gradient(to bottom,rgba(96, 174, 219, 0.432), rgba(13, 6, 26, 0.897));
     z-index: 2;
     transition: 0.5s;
-    opacity:0;
-    border-radius: 5%;
+    opacity:1;
+    border-radius: 16px;
 }
 
 .mycard:hover:before{
@@ -64,13 +64,13 @@
     object-fit: fill;
     position: absolute;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 16px;
 }
 
 .mycard .card-info{
     position: relative;
     z-index: 3;
-    opacity: 0;
+    opacity: 1;
     color: #fff;
     text-align: center;
     top:2.5rem;

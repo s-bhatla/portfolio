@@ -7,6 +7,8 @@
     z-index: 1;
     transition-timing-function: ease-in-out;
     transition: 0.5s;
+    font-weight: 200;
+    z-index:5;
   }
 
 .my-name{
@@ -74,4 +76,9 @@
 .nav-effect:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.contact-nav{
+  font-weight: 600;
+  color: blueviolet;
 }

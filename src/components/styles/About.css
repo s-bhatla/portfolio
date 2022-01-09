@@ -10,13 +10,14 @@
 .summary {
   padding: 1rem;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .button-link {
   text-align: center;
   margin: 2rem auto;
   width: fit-content;
+  font-weight: 500;
 }
 
 .cool-btn {
@@ -127,4 +128,9 @@
   100% {
     bottom: 100%;
   }
+}
+
+.embolden{
+  font-weight: 600;
+  color: #03e9f4;
 }

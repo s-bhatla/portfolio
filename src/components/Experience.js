@@ -59,7 +59,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">Volunteer</h3>
           <h4 className="vertical-timeline-element-subtitle">NIT-Delhi Technical Club, Upvision</h4>
           <p>
-            Worked to help organize various multiple tournaments for the college community
+            Worked to help organize various multiple tournaments for the college community.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -74,7 +74,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">Executive Member</h3>
           <h4 className="vertical-timeline-element-subtitle">Google Developer Student Club</h4>
           <p>
-            Worked to organize various seminars and events which were attended by over 150 students
+            Worked to organize various seminars and events which were attended by over 150 students.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

@@ -34,7 +34,7 @@ function Navbar() {
             <li class="nav-item"><a class="nav-link active nav-effect" aria-current="page" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link active nav-effect" aria-current="page" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link active nav-effect" aria-current="page" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link active nav-effect" aria-current="page" href="#contact">Contact Me</a></li>
+            <li class="nav-item"><a class="nav-link active nav-effect contact-nav" aria-current="page" href="#contact">Contact Me</a></li>
           </ul>
         </div>
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

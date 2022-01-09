@@ -47,19 +47,19 @@ function Landing() {
           </h2>
         </div>
         <div class="d-flex justify-content-center landing-icons">
-          <a href="https://www.linkedin.com/in/sidharth-bhatla-811154202/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sidharth-bhatla-811154202/">
             <i class="fab fa-linkedin p-3"></i>
           </a>
-          <a href="https://github.com/s-bhatla">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla">
             <i class="fab fa-github p-3"></i>
           </a>
-          <a href="https://stackoverflow.com/users/14859624/sidharth-bhatla">
+          <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/14859624/sidharth-bhatla">
             <i class="fab fa-stack-overflow p-3"></i>
           </a>
-          <a href="mailto:sidroot02@gmail.com">
+          <a target="_blank" rel="noopener noreferrer" href="mailto:sidroot02@gmail.com">
             <i class="fas fa-envelope p-3"></i>
           </a>
-          <a href="https://www.hackerrank.com/sidroot02">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.hackerrank.com/sidroot02">
             <i class="fab fa-hackerrank p-3"></i>
           </a>
         </div>

@@ -27,7 +27,7 @@ function Projects() {
   return (
     <div id="projects" className="container-fluid">
       <h2 className="topic-head">Projects</h2>
-      <div className="d-flex mb-3">
+      <div className="d-flex mb-3 ms-2">
         <div className="p-1 sorters  nav-effect" onClick={display_all}>
           All
         </div>
@@ -71,7 +71,7 @@ function Projects() {
             <div className="card-info">
               <h3>Chess Mini Game</h3>
               <p>
-                A Chess Mini Game entirely created in the C language.
+                A Chess Mini Game created using only the C language.
               </p>
               <a href="https://github.com/s-bhatla/Chess-Mini-Game" class="btn">
                 Go to Project
@@ -89,7 +89,7 @@ function Projects() {
             <div className="card-info">
               <h3>Chromavision</h3>
               <p>
-                A cross platform application created to test for color-blindness
+                A cross platform application created to test for color-blindness.
               </p>
               <a href="https://github.com/s-bhatla/ChromaVision" class="btn">
                 Go to Project
@@ -105,7 +105,7 @@ function Projects() {
               height="200vh"
             />
             <div className="card-info">
-              <h3>SwiftPharma</h3>
+              <h3>Swift Pharma</h3>
               <p>
                 A functioning full-stack e-commerce website created using ExpressJS.
               </p>
@@ -125,7 +125,7 @@ function Projects() {
             <div className="card-info">
               <h3>Portfolio Website</h3>
               <p>
-                The portfolio website you are looking at right now!
+                The portfolio website you are staring at right now!
               </p>
               <a href="/" class="btn">
                 Go to Project
