@@ -1,45 +1,49 @@
-.skillcard *{
-    text-align: center;
+.skillcard * {
+  text-align: center;
 }
 
 .skillcard i {
-    font-size: 3rem;
-    color: rgb(198, 137, 223);
+  font-size: 3rem;
+  color: rgb(198, 137, 223);
 }
 
-.skill-title{
-    margin-top: 2rem;
-    font-size: 1.75rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 600;
+.skill-title {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
 }
 
-.skill-content{
-    font-family: 'Ubuntu Mono', monospace;
-    padding-top: 0.65rem;
+.skill-content {
+  font-family: "Ubuntu Mono", monospace;
+  padding-top: 0.65rem;
 }
 
-.skillcard{
-    padding: 3rem;
-    border: 2px solid var(--lightblue);
-    border-radius: 10%;
-    margin: 1rem;
-    height: 55vh;
-    box-shadow: 0px 0px 7px 3px var(--lightblue),
+.skillcard {
+  /* transition: box-shadow 0.5s ease-in-out; */
+  padding: 3rem;
+  border: 2px solid var(--lightblue);
+  border-radius: 32px;
+  margin: 1rem;
+  height: 55vh;
+  box-shadow: 0px 0px 7px 3px var(--lightblue),
     0px 0px 10px 4px rgb(198, 137, 223);
-    transition: box-shadow 0.2s ease-in-out 0.2s;
 }
 
-.skillcard:hover{
-    transition: box-shadow 0.2s ease-in-out 0.2s;
-    box-shadow: 0px 0px 15px 5px var(--lightblue),
+.skillcard:hover {
+  /* transition: box-shadow 0.2s ease-in-out; */
+  box-shadow: 0px 0px 15px 5px var(--lightblue),
     0px 0px 18px 7px rgb(198, 137, 223);
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
-#skills{
-    padding-top: 3rem;
+#skills {
+  padding-top: 3rem;
 }
 
-.skillka-title{
-    margin-bottom:2rem;
+.skillka-title {
+  margin-bottom: 2rem;
 }
