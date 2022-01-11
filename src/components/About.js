@@ -49,7 +49,7 @@ function About() {
             className="button-link cool-btn"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/sidharth-bhatla-811154202/"
+            href="https://drive.google.com/drive/folders/19JnK8c2cq0SniX_DRKrVu_LJ35JI9Pwh?usp=sharing"
           >
             <span></span>
             <span></span>
