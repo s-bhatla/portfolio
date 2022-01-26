@@ -1,7 +1,7 @@
 .videoclass{
     width: 100vw;
     height: 100vh;
-    object-fit:fill;
+    object-fit:cover;
     position: fixed;
     left: 0;
     right: 0;
@@ -9,6 +9,7 @@
     bottom: 0;
     z-index: -1;
 }
+
 
 .mycontent h2{
   font-weight: 500;
@@ -84,4 +85,51 @@
 .my-roles{
   font-weight: 700;
   color: #d258d4;
+}
+
+@media (max-width: 580px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .landing-icons i{
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    text-shadow: none;
+    transition: 0.2s ease-in-out;
+  }
+  .mycontent{
+    position: relative;
+    top: 25vh;
+    margin: 0 auto;
+    color: #fff;
+    /* background-color: #8a72309c; */
+    /* background-color: rgba(66, 53, 73, 0.37); */
+    background-color: rgba(0, 0, 0, 0.473);
+    /* box-shadow: 0px 0px 20px 5px var(--yellow1); */
+    width: fit-content;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 32px;
+    backdrop-filter: blur(4px);
+    transition: all 4s ease-in-out 4s;
+  
+    box-shadow: 10px 10px 4px 2px #84fbff,
+    10px 10px 24px 8px #03b7c0;
+  }
+  .mycontent h2{
+    font-weight: 500;
+  }
+  .videoclass{
+    width: 200vw;
+    height: 150vh;
+    object-fit:fill;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
 }
