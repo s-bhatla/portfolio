@@ -90,7 +90,7 @@
 @media (max-width: 580px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   .landing-icons i{
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-top: 0.3rem;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
