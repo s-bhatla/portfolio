@@ -12,7 +12,7 @@ function Counter() {
           <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
               <div className="number-counter">
-                {isVisible ? <CountUp end={5} duration={1} /> : 5}
+                {isVisible ? <CountUp end={5} duration={2} /> : 5}
               </div>
             )}
           </VisibilitySensor>
@@ -24,7 +24,7 @@ function Counter() {
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
               <div className="number-counter">
-                {isVisible ? <CountUp end={8} duration={1} /> : 8}
+                {isVisible ? <CountUp end={8} duration={2} /> : 8}
               </div>
             )}
           </VisibilitySensor></div>
@@ -35,7 +35,7 @@ function Counter() {
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
               <div className="number-counter">
-                {isVisible ? <CountUp end={1} duration={1} /> : 1}
+                {isVisible ? <CountUp end={1} duration={2} /> : 1}
               </div>
             )}
           </VisibilitySensor></div>
@@ -46,7 +46,7 @@ function Counter() {
         <div><VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
             {({ isVisible }) => (
               <div>
-                {isVisible ? <CountUp end={166} duration={1} /> : 166}
+                {isVisible ? <CountUp end={166} duration={2} /> : 166}
               </div>
             )}
           </VisibilitySensor></div>

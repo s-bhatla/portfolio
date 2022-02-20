@@ -21,6 +21,8 @@
 }
 
 .cool-btn {
+  border: 2px solid #03e9f4;
+  border-radius: 8px;
   padding: 1rem 1.25rem;
   color: #03e9f4;
   text-decoration: none;

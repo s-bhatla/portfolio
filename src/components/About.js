@@ -51,10 +51,7 @@ function About() {
             rel="noopener noreferrer"
             href="https://drive.google.com/drive/folders/19JnK8c2cq0SniX_DRKrVu_LJ35JI9Pwh?usp=sharing"
           >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            
             Download Resume
           </a>
         </div>

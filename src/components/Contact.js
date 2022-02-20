@@ -20,12 +20,8 @@ function Contact() {
           platforms provided. I'm always interested in new and exciting
           oppurtunities so don't hesitate to get in touch. I'll be waiting for
           you!
-          <div className="d-flex justify-content-center mt-3">
+          <div className="d-flex justify-content-center mt-4">
             <a href="mailto:sidroot02@gmail.com" className="cool-btn contact-button">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
               <div className="pe-2 ps-2">Contact Me</div>
             </a>
           </div>
