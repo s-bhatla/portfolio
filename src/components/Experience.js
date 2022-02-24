@@ -10,7 +10,7 @@ import { ReactComponent as SchoolIcon } from "./school.svg";
 function Experience() {
   return (
     <div id="experience" className="container-fluid">
-      <h2  className="topic-head">Experience</h2>
+      <h2 className="topic-head">Experience</h2>
       {/* Create a timeline here */}
       <VerticalTimeline lineColor="#b46fd9">
         <VerticalTimelineElement
