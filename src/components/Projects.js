@@ -99,7 +99,7 @@ function Projects() {
         <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/swiftpharma.png`}
+              src={`${process.env.PUBLIC_URL}/assets/swiftpharma.webp`}
               alt="SwiftPharma"
               height="200vh"
             />
@@ -121,7 +121,7 @@ function Projects() {
         <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/portfolio.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/portfolio.webp`}
               alt="This Portfolio Website"
               height="200vh"
             />

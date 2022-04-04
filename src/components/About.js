@@ -1,4 +1,4 @@
-import myImg from "./myImg.png";
+import myImg from "./myImg.webp";
 import "./styles/About.css";
 // import Aos from "aos";
 // import "aos/dist/aos.css";
