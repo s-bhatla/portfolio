@@ -1,7 +1,7 @@
 import "./styles/Skills.css"
 // import Aos from "aos";
 // import "aos/dist/aos.css"
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function Skills() {
   // useEffect(() => {

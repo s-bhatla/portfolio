@@ -2,7 +2,7 @@ import "./styles/Projects.css";
 import { useState } from "react";
 // import Aos from "aos";
 // import "aos/dist/aos.css";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function Projects() {
   const [showproj, setShowproj] = useState("nothing");

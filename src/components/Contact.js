@@ -2,7 +2,7 @@ import "./styles/Contact.css";
 import mailbox from "./mail-box.png";
 // import Aos from "aos";
 // import "aos/dist/aos.css"
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 
 function Contact() {
