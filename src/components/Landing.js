@@ -19,7 +19,7 @@ function Landing() {
       </video>
       <div class="mycontent">
         <div class="d-flex justify-content-center">
-          <h2>Hi, I am Sidharth Bhatla</h2>
+          <h2>Hi, I am Sidharth Bhatla.</h2>
         </div>
         <div class="d-flex justify-content-center">
           <h2>
