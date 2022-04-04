@@ -12,7 +12,7 @@ function Experience() {
     <div id="experience" className="container-fluid">
       <h2 className="topic-head">Experience</h2>
       {/* Create a timeline here */}
-      <VerticalTimeline lineColor="#b46fd9">
+      <VerticalTimeline lineColor="#b46fd9" animate={false}>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2002-2018"
@@ -21,6 +21,7 @@ function Experience() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(40, 62, 128)" }}
           icon={<SchoolIcon />}
           position={"left"}
+          animate={false}
         >
           <h3 className="vertical-timeline-element-title">
             Ryan International School,
@@ -38,6 +39,7 @@ function Experience() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(40, 62, 128)" }}
           icon={<SchoolIcon />}
           position={"left"}
+          animate={false}
         >
           <h3 className="vertical-timeline-element-title">
             National Institute of Technology,
@@ -55,6 +57,7 @@ function Experience() {
           iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"right"}
+          animate={false}
         >
           <h3 className="vertical-timeline-element-title">Volunteer</h3>
           <h4 className="vertical-timeline-element-subtitle">NIT-Delhi Technical Club, Upvision</h4>
@@ -70,6 +73,7 @@ function Experience() {
           iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"right"}
+          animate={false}
         >
           <h3 className="vertical-timeline-element-title">Executive Member</h3>
           <h4 className="vertical-timeline-element-subtitle">Google Developer Student Club</h4>
