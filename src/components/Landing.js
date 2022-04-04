@@ -1,6 +1,6 @@
 import "./styles/Landing.css";
 import video from "./Cyberpunkvid.mp4";
-// import Typist from "react-typist";
+import Typist from "react-typist";
 import { useState, useEffect } from "react";
 
 function Landing() {
@@ -25,7 +25,7 @@ function Landing() {
           <h2>
             <div className="d-flex">
               <div className="pe-2">I am a</div>
-              {/* <div className="my-roles">
+              <div className="my-roles">
                 {count ? (
                   <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
                     <span>Programmer</span>
@@ -42,7 +42,7 @@ function Landing() {
                 ) : (
                   ""
                 )}
-              </div> */}
+              </div>
             </div>
           </h2>
         </div>
