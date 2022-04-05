@@ -1,21 +1,30 @@
-.videoclass{
-    width: 100vw;
-    height: 100vh;
-    object-fit:cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+#landing {
+  background-image: url("cyberss.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(9, 40, 61, 0.932);
+
 }
 
+.videoclass {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
 
-.mycontent h2{
+.mycontent h2 {
   font-weight: 500;
 }
 
-.mycontent{
+.mycontent {
   position: relative;
   top: 25vh;
   margin: 0 auto;
@@ -32,44 +41,35 @@
   border-radius: 32px;
   backdrop-filter: blur(4px);
   transition: all 4s ease-in-out 4s;
-
-  box-shadow: 10px 10px 4px 2px #84fbff,
-  10px 10px 24px 8px #03b7c0;
+  z-index: 2;
+  box-shadow: 10px 10px 4px 2px #84fbff, 10px 10px 24px 8px #03b7c0;
 }
 
 .mycontent i {
   color: rgb(255, 255, 255);
 }
 
-.mycontent:hover{
+.mycontent:hover {
   transition: all 4s ease-in-out 4s;
-  text-shadow:
-      0 0 1px #fff,
-      0 0 4px #dea3df;
+  text-shadow: 0 0 1px #fff, 0 0 4px #dea3df;
   animation: flicker2 1.5s infinite alternate;
-  
 }
 
 @keyframes flicker2 {
-    
-  100%{
-    text-shadow:
-      0 0 2px rgb(71, 17, 71),
-      0 0 4px #df21e2;
+  100% {
+    text-shadow: 0 0 2px rgb(71, 17, 71), 0 0 4px #df21e2;
   }
-  
-  0% {        
-      text-shadow:
-      0 0 1px rgb(71, 17, 71),
-      0 0 2px #df21e2;
-  }    
+
+  0% {
+    text-shadow: 0 0 1px rgb(71, 17, 71), 0 0 2px #df21e2;
+  }
 }
 
-.landing-icons{
+.landing-icons {
   padding-top: 0.3rem;
 }
 
-.landing-icons i{
+.landing-icons i {
   font-size: 1.3rem;
   margin-top: 1rem;
   margin-left: 1.5rem;
@@ -78,18 +78,18 @@
   transition: 0.2s ease-in-out;
 }
 
-.landing-icons i:hover{
+.landing-icons i:hover {
   color: #03b7c0;
 }
 
-.my-roles{
+.my-roles {
   font-weight: 700;
   color: #d258d4;
 }
 
 @media (max-width: 580px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  .landing-icons i{
+  .landing-icons i {
     font-size: 1rem;
     margin-top: 0.3rem;
     margin-left: 0.3rem;
@@ -97,7 +97,7 @@
     text-shadow: none;
     transition: 0.2s ease-in-out;
   }
-  .mycontent{
+  .mycontent {
     position: relative;
     top: 25vh;
     margin: 0 auto;
@@ -114,22 +114,21 @@
     border-radius: 32px;
     backdrop-filter: blur(4px);
     transition: all 4s ease-in-out 4s;
-  
-    box-shadow: 10px 10px 4px 2px #84fbff,
-    10px 10px 24px 8px #03b7c0;
+
+    box-shadow: 10px 10px 4px 2px #84fbff, 10px 10px 24px 8px #03b7c0;
   }
-  .mycontent h2{
+  .mycontent h2 {
     font-weight: 500;
   }
-  .videoclass{
+  .videoclass {
     width: 200vw;
     height: 150vh;
-    object-fit:fill;
+    object-fit: fill;
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -1;
-}
+  }
 }
