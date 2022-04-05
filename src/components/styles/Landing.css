@@ -1,3 +1,4 @@
+@media (min-width: 600px) {
 #landing {
   background-image: url("cyberss.jpg");
   background-repeat: no-repeat;
@@ -5,7 +6,7 @@
   background-position: center;
   background-size: cover;
   background-color: rgba(9, 40, 61, 0.932);
-
+}
 }
 
 .videoclass {
