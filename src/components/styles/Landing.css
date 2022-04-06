@@ -5,7 +5,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-color: rgba(9, 40, 61, 0.932);
+  background-color: var(--darkblue);
 }
 }
 
