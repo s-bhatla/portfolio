@@ -14,7 +14,7 @@ function Landing() {
 
   return (
     <div id="landing">
-      <video class="videoclass" autoplay="autoplay" muted loop width="100%">
+      <video class="videoclass" autoplay="autoplay" muted loop width="100%" controls preload="none" poster="./styles/cyberss.webp">
         <source src={video} type="video/mp4" />
       </video>
       <div class="mycontent">

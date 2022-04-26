@@ -48,6 +48,7 @@ function Projects() {
               src={`${process.env.PUBLIC_URL}/assets/vaxiqueue.png`}
               alt="VaxiQueue"
               height="200vh"
+              loading="lazy"
             />
             <div className="card-info">
               <h3>Vaxiqueue</h3>
@@ -67,6 +68,7 @@ function Projects() {
               src={`${process.env.PUBLIC_URL}/assets/minichess.png`}
               alt="Chess Mini Game"
               height="200vh"
+              loading="lazy"
             />
             <div className="card-info">
               <h3>Chess Mini Game</h3>
@@ -83,6 +85,7 @@ function Projects() {
               src={`${process.env.PUBLIC_URL}/assets/chromavision.jpg`}
               alt="ChromaVision"
               height="200vh"
+              loading="lazy"
             />
             <div className="card-info">
               <h3>Chromavision</h3>
@@ -102,6 +105,7 @@ function Projects() {
               src={`${process.env.PUBLIC_URL}/assets/swiftpharma.webp`}
               alt="SwiftPharma"
               height="200vh"
+              loading="lazy"
             />
             <div className="card-info">
               <h3>Swift Pharma</h3>
@@ -124,6 +128,7 @@ function Projects() {
               src={`${process.env.PUBLIC_URL}/assets/portfolio.webp`}
               alt="This Portfolio Website"
               height="200vh"
+              loading="lazy"
             />
             <div className="card-info">
               <h3>Portfolio Website</h3>

@@ -14,7 +14,7 @@ function Contact() {
     <div id="contact" class="container-fluid">
       <h2 className="topic-head">Get in Touch</h2>
       <div className="d-flex justify-content-center mt-3">
-        <img src={mailbox} alt="mailbox." className=" mail-img" 
+        <img loading="lazy" src={mailbox} alt="mailbox." className=" mail-img" 
         // data-aos="fade-right" data-aos-once="true" 
         />
         <div className="contact-text"  
