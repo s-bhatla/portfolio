@@ -14,6 +14,7 @@ function About() {
       <h2 className="topic-head">About Me</h2>
       <div className="row">
         <img
+          loading="lazy"
           // data-aos="fade-right"
           // data-aos-once="true"
           src={myImg}
