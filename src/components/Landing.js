@@ -1,6 +1,7 @@
 import "./styles/Landing.css";
 import video from "./Cyberpunkvid.mp4";
 import Typist from "react-typist";
+import cyberss from "./styles/cyberss.webp";
 import { useState, useEffect } from "react";
 
 function Landing() {
@@ -14,7 +15,7 @@ function Landing() {
 
   return (
     <div id="landing">
-      <video class="videoclass" autoplay="autoplay" muted loop width="100%" controls preload="none" poster="./styles/cyberss.webp">
+      <video class="videoclass" autoplay="autoplay" muted loop width="100%" controls preload="none" poster={cyberss}>
         <source src={video} type="video/mp4" />
       </video>
       <div class="mycontent">
