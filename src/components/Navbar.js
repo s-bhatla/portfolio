@@ -2,24 +2,25 @@ import "./styles/Navbar.css"
 import { useState, useEffect } from "react";
 
 function Navbar() {
-  const [show, setShow] = useState("transy")
-  const controlNavbar = () =>{
-    if(window.scrollY<10){
-      setShow("transy")
-    }
-    else if(window.scrollY>600){
-      setShow(" ")
-    }else{
-      setShow("navinvis")
-    }
-  }
+  const show = "transy"
+  // const [show, setShow] = useState("transy")
+  // const controlNavbar = () =>{
+  //   if(window.scrollY<10){
+  //     setShow("transy")
+  //   }
+  //   else if(window.scrollY>600){
+  //     setShow(" ")
+  //   }else{
+  //     setShow("navinvis")
+  //   }
+  // }
 
-  useEffect(() => {
-    window.addEventListener('scroll',controlNavbar)
-    return () => {
-      window.removeEventListener('scroll', controlNavbar)
-    }
-  }, [])
+  // useEffect(() => {
+  //   window.addEventListener('scroll',controlNavbar)
+  //   return () => {
+  //     window.removeEventListener('scroll', controlNavbar)
+  //   }
+  // }, [])
 
 
   return (
