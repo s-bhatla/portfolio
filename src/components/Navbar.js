@@ -1,5 +1,5 @@
 import "./styles/Navbar.css"
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 function Navbar() {
   const show = "transy"
