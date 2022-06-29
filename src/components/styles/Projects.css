@@ -31,7 +31,7 @@
 
 .mycard{
     position: relative;
-    transition: ease-in-out;
+    transition: 0.5s ease-in-out;
     margin-bottom: 3rem;
     transition: ease-in-out;
     border-radius: 16px;
@@ -42,7 +42,7 @@
 
 .mycard:hover{
     transform: translateY(-1rem);
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 /* .mycard:before{
