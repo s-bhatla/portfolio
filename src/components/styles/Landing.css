@@ -27,6 +27,7 @@
 
 .mycontent {
   position: relative;
+  -webkit-transform: translateZ(0);
   top: 25vh;
   margin: 0 auto;
   color: #fff;
@@ -54,6 +55,8 @@
   transition: all 4s ease-in-out 4s;
   text-shadow: 0 0 1px #fff, 0 0 4px #dea3df;
   animation: flicker2 1.5s infinite alternate;
+  -webkit-transform: translateZ(0);
+
 }
 
 @keyframes flicker2 {

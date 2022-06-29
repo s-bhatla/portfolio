@@ -19,7 +19,7 @@
 
 .nav-animate{
   animation: flicker 1.5s infinite alternate;
-  /* -webkit-transform: translateZ(0); */
+  -webkit-transform: translateZ(0);
 }
 
 .nav-glow{
@@ -28,7 +28,7 @@
     0 0 7px rgb(210, 242, 255),
     0 0 10px rgb(186, 236, 255),
     0 0 40px rgb(0, 153, 255);
-    /* -webkit-transform: translateZ(0); */
+    -webkit-transform: translateZ(0);
 
 }
 
