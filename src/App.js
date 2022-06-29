@@ -13,7 +13,7 @@ function App() {
   return (
     <div class="main-content">
       <Navbar />
-      <Landing />
+      {/* <Landing /> */}
       <main>
         <About />
         <Skills />
