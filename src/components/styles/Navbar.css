@@ -15,7 +15,7 @@
   font-family: 'Major Mono Display', monospace;
   font-size: 1.45rem;
   color: rgb(204, 245, 255);
-  animation: flicker 1.5s infinite alternate;
+  /* animation: flicker 1.5s infinite alternate; */
   
 }
 
