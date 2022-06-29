@@ -5,7 +5,7 @@ function Navbar() {
   const [show, setShow] = useState("transy")
   const controlNavbar = () =>{
     if(window.scrollY<10){
-      setShow("transy")
+      setShow("transy nav-animate")
     }
     else if(window.scrollY>600){
       setShow(" ")
