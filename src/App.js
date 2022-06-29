@@ -1,4 +1,4 @@
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Counter from "./components/Counter";
@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <div class="main-content">
-      {/* <Navbar /> */}
+      <Navbar />
       <Landing />
       <main>
         <About />
