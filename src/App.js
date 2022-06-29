@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-// import Landing from "./components/Landing";
+import Landing from "./components/Landing";
 import About from "./components/About";
 import Counter from "./components/Counter";
 import Skills from "./components/Skills";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div class="main-content">
       <Navbar />
-      {/* <Landing /> */}
+      <Landing />
       <main>
         <About />
         <Skills />
