@@ -22,3 +22,9 @@
     font-family: 'Major Mono Display', monospace;
     font-size: 2.25rem;
 }
+
+@media (max-width: 580px) {
+    .footer i{
+        margin: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+}

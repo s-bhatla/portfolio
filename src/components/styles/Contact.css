@@ -1,6 +1,7 @@
 #contact a {
   width: fit-content;
   padding: 1rem 0 1rem 0;
+  margin-bottom: 2rem;
 }
 
 #contact {
@@ -30,6 +31,11 @@
 }
 
 @media (max-width: 580px) {
+  .contact-text{
+    display: flex;
+    flex-direction: column;
+  }
+
   .contact-text {
     margin: auto 2rem auto 2rem;
     font-size: 1.35rem;
@@ -39,7 +45,8 @@
     margin-bottom: 1.5rem;
     width: 35vw;
     height: fit-content;
-    margin-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 16px;
     border: 1px solid #55B8E1;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
