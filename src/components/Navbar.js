@@ -23,7 +23,7 @@ function Navbar() {
 
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-dark`}>
+    <nav className={`navbar navbar-expand-lg navbar-dark ${show}`}>
       <div class="container-fluid d-flex">
       <a class="navbar-brand ps-2 my-name" href="/">sidhArth bhAtlA</a>
         
