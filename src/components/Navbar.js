@@ -3,14 +3,18 @@ import { useState, useEffect } from "react";
 
 function Navbar() {
   const [show, setShow] = useState("transy")
+  const [nameAni, setnameAni] = useState("nav-animate")
   const controlNavbar = () =>{
     if(window.scrollY<10){
-      setShow("transy nav-animate")
+      setShow("transy")
+      setnameAni("nav-animate")
     }
     else if(window.scrollY>600){
       setShow(" ")
+      setnameAni(" ")
     }else{
       setShow("navinvis")
+      setnameAni(" ")
     }
   }
 
