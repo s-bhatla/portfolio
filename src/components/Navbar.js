@@ -11,10 +11,10 @@ function Navbar() {
     }
     else if(window.scrollY>600){
       setShow(" ")
-      setnameAni(" ")
+      setnameAni("nav-glow")
     }else{
       setShow("navinvis")
-      setnameAni(" ")
+      setnameAni("nav-glow")
     }
   }
 
