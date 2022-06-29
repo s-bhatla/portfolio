@@ -1,5 +1,5 @@
 import "./styles/Counter.css";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 
 function Counter() {
   return (
