@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
-// import Counter from "./components/Counter";
+import Counter from "./components/Counter";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -17,7 +17,7 @@ function App() {
       <main>
         <About />
         <Skills />
-        {/* <Counter /> */}
+        <Counter />
         <Experience />
         <Projects />
         <Contact />
