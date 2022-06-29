@@ -1,6 +1,5 @@
 import "./styles/Counter.css";
 import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 
 function Counter() {
   return (
