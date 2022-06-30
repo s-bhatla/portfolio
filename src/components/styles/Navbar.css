@@ -34,7 +34,7 @@
     transform: translateZ(0);
 }
 
-@media (max-width: 580px) {
+/* @media (max-width: 580px) {
   .nav-animate{
     animation: flicker2 1.5s infinite alternate;
     -webkit-transform: translateZ(0);
@@ -51,7 +51,7 @@
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
   }
-}
+} */
 
 
 @keyframes flicker2 {
