@@ -34,24 +34,7 @@
     transform: translateZ(0);
 }
 
-/* @media (max-width: 580px) {
-  .nav-animate{
-    animation: flicker2 1.5s infinite alternate;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  
-  }
-  
-  .nav-glow{
-    /* Fuck it man, name not glow */
-    text-shadow:
-      0 0 7px rgb(210, 242, 255),
-      0 0 10px rgb(186, 236, 255),
-      0 0 20px rgb(0, 153, 255);
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-  }
-} */
+/*  */
 
 
 @keyframes flicker2 {
