@@ -38,7 +38,7 @@ function Experience() {
           iconStyle={{ background: "rgb(140, 190, 255)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(40, 62, 128)" }}
           icon={<SchoolIcon />}
-          position={"left"}
+          position={"right"}
           animate={false}
         >
           <h3 className="vertical-timeline-element-title">
@@ -56,7 +56,7 @@ function Experience() {
           date="2020 - present"
           iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
-          position={"right"}
+          position={"left"}
           animate={false}
         >
           <h3 className="vertical-timeline-element-title">Volunteer</h3>
