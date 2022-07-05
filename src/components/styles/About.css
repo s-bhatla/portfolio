@@ -8,9 +8,11 @@
 }
 
 .summary {
+  margin-top: auto;
+  margin-bottom: auto;
   padding: 1rem;
-  font-size: 1.1rem;
-  font-weight: 200;
+  font-size: 1.15rem;
+  font-weight: 300;
 }
 
 .button-link {

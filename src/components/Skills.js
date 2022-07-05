@@ -12,7 +12,7 @@ function Skills() {
     <div id="skills" className="container-fluid">
       <h2 className="skillka-title topic-head">Skills</h2>
       <div className="row">
-        <div className=" col-md-4">
+        <div className=" col-lg-4">
           <div className="skillcard" 
           // data-aos="flip-left" data-aos-once="true"
           >
@@ -21,7 +21,7 @@ function Skills() {
             <div className="skill-content">HTML | CSS | JavaScript | ReactJS | Bootstrap | Node.js | ExpressJS | EJS| MongoDB | MySQL | Django </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="skillcard" 
           // data-aos="flip-left" data-aos-once="true"
           >
@@ -30,7 +30,7 @@ function Skills() {
             <div className="skill-content">Native Android Development (Java) | Flutter | Dart | XML </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="skillcard" 
           // data-aos="flip-left" data-aos-once="true"
           >
