@@ -14,7 +14,7 @@ function Counter() {
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
         <i class="fas fa-laptop-code my-icon"></i>
-        <div className="number-counter">8</div>
+        <div className="number-counter">3</div>
         <div>Hackathons Participated</div>
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
