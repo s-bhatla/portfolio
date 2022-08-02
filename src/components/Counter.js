@@ -8,13 +8,13 @@ function Counter() {
       <div className="d-flex flex-column justify-content-center counter-ele">
         <i class="far fa-lightbulb my-icon"></i>
         <div className="number-counter">
-          5
+          7
         </div>
         <div className="d-flex justify-content-center">Completed Projects</div>
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
         <i class="fas fa-laptop-code my-icon"></i>
-        <div className="number-counter">3</div>
+        <div className="number-counter">4</div>
         <div>Hackathons Participated</div>
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
@@ -24,7 +24,7 @@ function Counter() {
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
       <i class="fas fa-users my-icon"></i>
-        <div className="number-counter">318</div>
+        <div className="number-counter">341</div>
         <div>LinkedIn Connections</div>
       </div>
     </div>

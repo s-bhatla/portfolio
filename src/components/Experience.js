@@ -62,14 +62,14 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">Volunteer</h3>
           <h4 className="vertical-timeline-element-subtitle">NIT-Delhi Technical Club, Upvision</h4>
           <p>
-            Worked to help organize various multiple tournaments for the college community.
+            Worked to help organize various tournaments for the college community.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
-          date="2020 - present"
+          date="2020 - 2022"
           iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"right"}
@@ -79,6 +79,23 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Google Developer Student Club</h4>
           <p>
             Worked to organize various seminars and events which were attended by over 150 students.
+            Promoted to Lead in 2022.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
+          date="2022 July - 2022 August"
+          iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
+          icon={<WorkIcon />}
+          position={"left"}
+          animate={false}
+        >
+          <h3 className="vertical-timeline-element-title">Web Developer Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">Ideas to Impacts</h4>
+          <p>
+            Worked on creating the landing page for a hackathon organized by FIS.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

@@ -31,9 +31,8 @@
 
 .mycard{
     position: relative;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     margin-bottom: 3rem;
-    transition: ease-in-out;
     border-radius: 16px;
     overflow: hidden;
     max-width: 27rem;
@@ -42,7 +41,7 @@
 
 .mycard:hover{
     transform: translateY(-1rem);
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 /* .mycard:before{
@@ -75,7 +74,7 @@
     top:0rem;
     transition: 0.5s all;
     height: 13rem;
-    background: linear-gradient(to bottom,rgba(30, 84, 116, 0.432), rgba(13, 6, 26, 0.74));
+    background: linear-gradient(to bottom,rgba(15, 63, 94, 0.651), rgba(13, 6, 26, 0.74));
     border-radius: 16px;
     overflow: hidden;
 

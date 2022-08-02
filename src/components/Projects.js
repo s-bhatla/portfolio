@@ -133,7 +133,46 @@ function Projects() {
             <div className="card-info">
               <h3>Portfolio Website</h3>
               <p>The portfolio website you are staring at right now!</p>
-              <a target="_blank" rel="noopener noreferrer" href="/" class="btn">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/portfolio/tree/no-aos" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/nft_warranty.webp`}
+              alt="NFT Warranty Web App"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>NFT Warranty Website</h3>
+              <p>A web app to issue warranties on the Ethereum blockchain as NFTs.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=afUeF9etF_Q&feature=youtu.be" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/FIS.webp`}
+              alt="FIS Landing Page"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>FIS Landing Page</h3>
+              <p>
+                A landing page for an FIS Hackathon I worked on during my internship.
+              </p>
+              <a target="_blank" rel="noopener noreferrer" 
+                href="https://fis-landing.netlify.app/"
+                class="btn"
+              >
                 Go to Project
               </a>
             </div>
