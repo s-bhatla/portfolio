@@ -14,14 +14,17 @@ function Footer() {
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla">
             <i class="fab fa-github p-3"></i>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/14859624/sidharth-bhatla">
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/14859624/sidharth-bhatla">
             <i class="fab fa-stack-overflow p-3"></i>
-          </a>
+          </a> */}
           <a target="_blank" rel="noopener noreferrer" href="mailto:sidroot02@gmail.com">
             <i class="fas fa-envelope p-3"></i>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.hackerrank.com/sidroot02">
             <i class="fab fa-hackerrank p-3"></i>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SiducerBhatla">
+            <i class="fab fa-twitter p-3"></i>
           </a>
         </div>
       </div>
