@@ -42,6 +42,45 @@ function Projects() {
         </div>
       </div>
       <div className="row cards-list wrapper">
+      <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/nft_warranty.webp`}
+              alt="NFT Warranty Web App"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>NFT Warranty Website</h3>
+              <p>A web app to issue warranties on the Ethereum blockchain as NFTs.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=afUeF9etF_Q&feature=youtu.be" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/FIS.webp`}
+              alt="FIS Landing Page"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>FIS Landing Page</h3>
+              <p>
+                A landing page for an FIS Hackathon I worked on during my internship.
+              </p>
+              <a target="_blank" rel="noopener noreferrer" 
+                href="https://fis-landing.netlify.app/"
+                class="btn"
+              >
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
         <div className={`col-md-4 col-sm-6 android ${showproj}`}>
           <div className="mycard m-4">
             <img
@@ -139,45 +178,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
-          <div className="m-4 mycard">
-            <img
-              src={`${process.env.PUBLIC_URL}/assets/nft_warranty.webp`}
-              alt="NFT Warranty Web App"
-              height="200vh"
-              loading="lazy"
-            />
-            <div className="card-info">
-              <h3>NFT Warranty Website</h3>
-              <p>A web app to issue warranties on the Ethereum blockchain as NFTs.</p>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=afUeF9etF_Q&feature=youtu.be" class="btn">
-                Go to Project
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
-          <div className="m-4 mycard">
-            <img
-              src={`${process.env.PUBLIC_URL}/assets/FIS.webp`}
-              alt="FIS Landing Page"
-              height="200vh"
-              loading="lazy"
-            />
-            <div className="card-info">
-              <h3>FIS Landing Page</h3>
-              <p>
-                A landing page for an FIS Hackathon I worked on during my internship.
-              </p>
-              <a target="_blank" rel="noopener noreferrer" 
-                href="https://fis-landing.netlify.app/"
-                class="btn"
-              >
-                Go to Project
-              </a>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

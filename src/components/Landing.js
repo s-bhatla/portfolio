@@ -29,16 +29,16 @@ function Landing() {
               <div className="my-roles">
                 {count ? (
                   <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
-                    <span>Programmer</span>
-                    <Typist.Backspace count={20} delay={800} />
-                    <span>Web Developer</span>
-                    <Typist.Backspace count={13} delay={800} />
-                    <span>ML Enthusiast</span>
-                    <Typist.Backspace count={13} delay={800} />
-                    <span>App Developer</span>
-                    <Typist.Backspace count={13} delay={800} />
-                    <span>Blockchain Bug</span>
+                    <span>Programmer.</span>
+                    <Typist.Backspace count={21} delay={1600} />
+                    <span>Web Developer.</span>
                     <Typist.Backspace count={14} delay={800} />
+                    <span>ML Enthusiast.</span>
+                    <Typist.Backspace count={14} delay={800} />
+                    <span>App Developer.</span>
+                    <Typist.Backspace count={14} delay={800} />
+                    <span>Blockchain Bug.</span>
+                    <Typist.Backspace count={15} delay={800} />
                   </Typist>
                 ) : (
                   ""
