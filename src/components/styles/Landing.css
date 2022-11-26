@@ -128,9 +128,11 @@
     font-weight: 500;
   }
   .videoclass {
-    width: 200vw;
+    margin-left: auto;
+    margin-right: auto;
     height: 150vh;
-    object-fit: fill;
+    width: auto;
+    object-fit: cover;
     position: fixed;
     left: 0;
     right: 0;
