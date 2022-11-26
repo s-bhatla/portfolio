@@ -18,10 +18,16 @@
 }
 
 .nav-animate{
-  animation: flicker 1.5s infinite alternate;
+  animation: flickerb 1.5s infinite alternate;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-
+}
+@media only screen and (max-width: 600px) {
+  .nav-animate{
+    animation: flickerb 1.5s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
 }
 
 .nav-glow{
@@ -37,7 +43,7 @@
 /*  */
 
 
-@keyframes flicker2 {
+@keyframes flickerb {
     
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
 
@@ -45,13 +51,15 @@
     0 0 7px rgb(210, 242, 255),
     0 0 10px rgb(186, 236, 255),
     0 0 21px rgb(147, 251, 255),
-    0 0 92px rgb(0, 110, 255),
+    0 0 42px rgb(0, 183, 255),
+    0 0 92px rgb(0, 110, 255);
+    
   
   }
   
   20%, 24%, 55% {        
       text-shadow: none;
-  }    
+  }   
 }
 
 
