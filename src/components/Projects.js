@@ -104,6 +104,25 @@ function Projects() {
         <div className={`col-md-4 col-sm-6 others ${showproj}`}>
           <div className="mycard m-4">
             <img
+              src={`${process.env.PUBLIC_URL}/assets/arduinobot.jpg`}
+              alt="Path Finder Bot"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>Path Finder Bot</h3>
+              <p>
+              A path-finding bot created using Arduino to detect dangerous gases.
+              </p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/Gasbot-arduino" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={`col-md-4 col-sm-6 others ${showproj}`}>
+          <div className="mycard m-4">
+            <img
               src={`${process.env.PUBLIC_URL}/assets/minichess.png`}
               alt="Chess Mini Game"
               height="200vh"
