@@ -45,6 +45,23 @@ function Projects() {
       <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img
+              src={`${process.env.PUBLIC_URL}/assets/ythero.webp`}
+              alt="YT-Hero"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>YT-Hero</h3>
+              <p>Web app that uses GPT-3 model to generate video titles.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://yt-hero-ten.vercel.app/" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+      <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
               src={`${process.env.PUBLIC_URL}/assets/nft_warranty.webp`}
               alt="NFT Warranty Web App"
               height="200vh"
@@ -175,6 +192,23 @@ function Projects() {
                 href="https://github.com/s-bhatla/swiftPharma/tree/master"
                 class="btn"
               >
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/foodel.webp`}
+              alt="Food Delivery App"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>Firebase Food Delivery</h3>
+              <p>A model firebase app for a food delivery platform.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/new-food-delivery" class="btn">
                 Go to Project
               </a>
             </div>

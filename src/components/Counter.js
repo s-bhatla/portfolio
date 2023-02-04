@@ -8,7 +8,7 @@ function Counter() {
       <div className="d-flex flex-column justify-content-center counter-ele">
         <i class="far fa-lightbulb my-icon"></i>
         <div className="number-counter">
-          7
+          10
         </div>
         <div className="d-flex justify-content-center">Completed Projects</div>
       </div>
@@ -24,8 +24,8 @@ function Counter() {
       </div>
       <div className="d-flex flex-column justify-content-center counter-ele">
       <i class="fas fa-users my-icon"></i>
-        <div className="number-counter">341</div>
-        <div>LinkedIn Connections</div>
+        <div className="number-counter">550</div>
+        <div>LinkedIn Followers</div>
       </div>
     </div>
   );
