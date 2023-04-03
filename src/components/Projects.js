@@ -214,6 +214,23 @@ function Projects() {
             </div>
           </div>
         </div>
+        <div className={`col-md-4 col-sm-6 others ${showproj}`}>
+          <div className="mycard m-4">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/gmail.webp`}
+              alt="Chess Mini Game"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>Mail Spinner</h3>
+              <p>A python script that mass sends cold mails using a CSV file.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/Mail-Spinny" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
         <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img
