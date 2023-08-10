@@ -122,7 +122,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
-          date="2022 July - 2022 August"
+          date="2023 May - 2023 August"
           iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
           icon={<WorkIcon />}
           position={"left"}
