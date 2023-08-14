@@ -2,6 +2,7 @@ import "./styles/Landing.css";
 import video from "./Cyberpunkvid.mp4";
 import Typist from "react-typist";
 import cyberss from "./styles/cyberss.webp";
+import gfg from "./gfg.svg"
 import { useState, useEffect } from "react";
 
 function Landing() {
@@ -60,8 +61,11 @@ function Landing() {
           <a target="_blank" rel="noopener noreferrer" href="mailto:sidroot02@gmail.com">
             <i class="fas fa-envelope p-3"></i>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.hackerrank.com/sidroot02">
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://www.hackerrank.com/sidroot02">
             <i class="fab fa-hackerrank p-3"></i>
+          </a> */}
+          <a target="_blank" className="" rel="noopener noreferrer" href="https://auth.geeksforgeeks.org/user/sidroot02/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">
+          <i class="fas fa-code p-3"></i>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SiducerBhatla">
             <i class="fab fa-twitter p-3"></i>
