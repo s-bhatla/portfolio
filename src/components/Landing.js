@@ -2,7 +2,6 @@ import "./styles/Landing.css";
 import video from "./Cyberpunkvid.mp4";
 import Typist from "react-typist";
 import cyberss from "./styles/cyberss.webp";
-import gfg from "./gfg.svg"
 import { useState, useEffect } from "react";
 
 function Landing() {
