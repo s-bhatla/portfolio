@@ -139,6 +139,34 @@ function Experience() {
             portal, and a landing page.
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(80, 40, 128)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(80, 40, 128)" }}
+          date="2024 January - Present"
+          iconStyle={{ background: "rgb(203, 158, 255)", color: "#fff" }}
+          icon={<WorkIcon />}
+          position={"right"}
+          animate={false}>
+          <h3 className="vertical-timeline-element-title">
+            Junior Software Developer
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            ConveGenius.AI
+          </h4>
+          <p>
+            <div>
+              Developed a facial recognition
+              bot pipeline used for
+              seamless teacher attendance with 98.6% accuracy.
+            </div>
+            <div>
+              Also worked on an agentic LLM systems
+              for converting natural language user queries to SQL queries for
+              databases with 150+ fields.
+            </div>
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );

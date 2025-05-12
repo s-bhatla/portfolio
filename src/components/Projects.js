@@ -42,6 +42,23 @@ function Projects() {
         </div>
       </div>
       <div className="row cards-list wrapper">
+        <div className={`col-md-4 col-sm-6 web ${showproj}`}>
+          <div className="m-4 mycard">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/storychain.webp`}
+              alt="YT-Hero"
+              height="200vh"
+              loading="lazy"
+            />
+            <div className="card-info">
+              <h3>StoryChain</h3>
+              <p>Online websocket-based storytelling game written in Go</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/s-bhatla/StoryChain" class="btn">
+                Go to Project
+              </a>
+            </div>
+          </div>
+        </div>
       <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img

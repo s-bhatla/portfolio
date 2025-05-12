@@ -51,7 +51,7 @@ function Skills() {
             </div>
             <div className="skill-title">Machine Learning</div>
             <div className="skill-content">
-              Python | Pandas | NumPy | Scikit-Learn | Matplotlib | Seaborn{" "}
+              Python | Pandas | NumPy | Scikit-Learn | Tensorflow| Keras | Matplotlib | Seaborn{" "}
             </div>
           </div>
         </div>
